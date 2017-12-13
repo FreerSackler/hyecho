@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNext.ttc">
+            <string>AvenirNext-Medium</string>
+        </array>
+        <array key="Georgia.ttf">
+            <string>Georgia</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--About Us View Controller-->
+        <scene sceneID="rb8-mb-2bw">
+            <objects>
+                <viewController storyboardIdentifier="AboutUs" id="f1p-np-9ss" customClass="AboutUsViewController" customModule="Hyechos_Journey" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Upz-ei-cdS"/>
+                        <viewControllerLayoutGuide type="bottom" id="H8W-tB-U1G"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PPo-wq-sH5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PPo-2g-Nga">
+                                <rect key="frame" x="0.0" y="20" width="375" height="1280"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2qg-Il-dNL">
+                                        <rect key="frame" x="0.0" y="2" width="375" height="1300"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wXK-g1-kh7">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="1300"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="N9A-gs-6DG">
+                                                        <rect key="frame" x="16" y="16" width="343" height="1276"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ABOUT THE APP" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VF4-1p-cPs">
+                                                                <rect key="frame" x="32.5" y="0.0" width="278" height="35"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="35" id="r7L-Lo-Vsq"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="36"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Icon" translatesAutoresizingMaskIntoConstraints="NO" id="xVU-BM-te0">
+                                                                <rect key="frame" x="149" y="42" width="45" height="45"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="45" id="Oxe-vM-8DM"/>
+                                                                    <constraint firstAttribute="height" constant="45" id="ccS-I4-L0J"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Courtesy of the University of Michigan" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6OK-89-U3o">
+                                                                <rect key="frame" x="0.0" y="94" width="343" height="15"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="15" id="C38-Zq-Gc9"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Content: Donald Lopez, Kevin Carr,  Ha Nul Jun, Rebecca Bloom" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UAq-uX-rdR">
+                                                                <rect key="frame" x="0.0" y="115.5" width="343" height="36.5"/>
+                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Design: Wei Cai, Sindhu Giri, Rebecca Henry" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rrp-hz-vq5">
+                                                                <rect key="frame" x="0.0" y="159" width="343" height="18.5"/>
+                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Development: Bailey Case, Anders Boberg,  Elijah Sattler, Eric Yeh" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xOL-vb-kOj">
+                                                                <rect key="frame" x="0.0" y="184.5" width="343" height="36.5"/>
+                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Faculty Advisor: Sugih Jamin" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xhp-cC-DEG">
+                                                                <rect key="frame" x="0.0" y="228" width="343" height="18.5"/>
+                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XtN-i1-qxt">
+                                                                <rect key="frame" x="51.5" y="253.5" width="240" height="20"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="Xx4-gz-GSa"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Associated with" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58c-U3-39h">
+                                                                <rect key="frame" x="0.0" y="280" width="343" height="15"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="15" id="yES-HB-9ij"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zLe-a8-EYu">
+                                                                <rect key="frame" x="0.0" y="302" width="343" height="40"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="40" id="8Su-QR-wRP"/>
+                                                                </constraints>
+                                                                <attributedString key="attributedText">
+                                                                    <fragment content="Encountering the Buddha: Art and Practice across Asia ">
+                                                                        <attributes>
+                                                                            <font key="NSFont" size="16" name="Georgia"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                    <fragment content="(2017 - 2020)">
+                                                                        <attributes>
+                                                                            <font key="NSFont" size="16" name="Georgia"/>
+                                                                            <font key="NSOriginalFont" size="14" name="Georgia"/>
+                                                                        </attributes>
+                                                                    </fragment>
+                                                                </attributedString>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c1F-Mm-AfM">
+                                                                <rect key="frame" x="51.5" y="349" width="240" height="20"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="tio-oB-Ttz"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Lead Sponsor" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJz-gz-p5a">
+                                                                <rect key="frame" x="0.0" y="376" width="343" height="15"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="15" id="aR7-on-itO"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Sponsor" translatesAutoresizingMaskIntoConstraints="NO" id="tur-7Q-1LG">
+                                                                <rect key="frame" x="0.0" y="398" width="343" height="100"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="100" id="ELw-GO-2ME"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bmO-s9-xY4">
+                                                                <rect key="frame" x="51.5" y="504.5" width="240" height="20"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="20" id="HAo-Ow-hgi"/>
+                                                                </constraints>
+                                                            </view>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="About the Freer|Sackler Galleries" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zbk-Ht-7wJ">
+                                                                <rect key="frame" x="0.0" y="531.5" width="343" height="15"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="15" id="rUg-TO-KtK"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qO2-tS-LVK">
+                                                                <rect key="frame" x="0.0" y="553.5" width="343" height="220"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="220" id="4ec-16-UTe"/>
+                                                                </constraints>
+                                                                <string key="text">Asia meets America at the Freer|Sackler Galleries, the Smithsonian’s museums of Asian art. Located on the National Mall in Washington, DC, our museums hold and care for world-class collections of Asian and American art. We disseminate knowledge and appreciation of Asian cultures through artworks from the Middle East, South and Southeast Asia, the Himalayas, Central Asia, China, and Japan.</string>
+                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                            </textView>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Our History" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nFa-vs-fca">
+                                                                <rect key="frame" x="0.0" y="780.5" width="343" height="15"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="15" id="o2Q-dT-2mH"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="18"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xIW-AK-Xbs">
+                                                                <rect key="frame" x="0.0" y="802.5" width="343" height="275"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="275" id="bxY-MD-AqR"/>
+                                                                </constraints>
+                                                                <string key="text">The Freer Gallery of Art opened to the public in 1923, becoming the first art museum on the National Mall. Nearly a century later, we continue to explore connections among Charles Lang Freer’s founding gift of Asian and American art. In 1987, the Arthur M. Sackler Gallery opened to present historical and contemporary Asian art through long-term installations and special exhibitions. This app continues Freer|Sackler’s century-long relationship with the University of Michigan.</string>
+                                                                <fontDescription key="fontDescription" name="Georgia" family="Georgia" pointSize="16"/>
+                                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                            </textView>
+                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7YR-S2-74X">
+                                                                <rect key="frame" x="75" y="1084" width="193" height="25"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="25" id="A1d-WG-mYa"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                                                <state key="normal" title="Smithsonian Privacy Policy"/>
+                                                                <connections>
+                                                                    <action selector="pressedPrivacyPolicy:" destination="f1p-np-9ss" eventType="touchUpInside" id="0El-ax-zRr"/>
+                                                                </connections>
+                                                            </button>
+                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wuo-dO-fcY">
+                                                                <rect key="frame" x="124" y="1116" width="95" height="25"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="25" id="ZXt-nS-G4C"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="16"/>
+                                                                <state key="normal" title="Terms of Use"/>
+                                                                <connections>
+                                                                    <action selector="pressedTermsOfUse:" destination="f1p-np-9ss" eventType="touchUpInside" id="2pE-Zv-TZO"/>
+                                                                </connections>
+                                                            </button>
+                                                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LZh-LS-xFZ">
+                                                                <rect key="frame" x="0.0" y="1148" width="343" height="128"/>
+                                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            </view>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstItem="Rrp-hz-vq5" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="2VN-7m-8b3"/>
+                                                            <constraint firstItem="xOL-vb-kOj" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="41H-Z9-UqQ"/>
+                                                            <constraint firstItem="zLe-a8-EYu" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="6lk-Nh-k85"/>
+                                                            <constraint firstItem="UAq-uX-rdR" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="73H-5a-Qtj"/>
+                                                            <constraint firstItem="Xhp-cC-DEG" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="CKn-mH-yaa"/>
+                                                            <constraint firstItem="TJz-gz-p5a" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="Doo-oI-B4g"/>
+                                                            <constraint firstItem="58c-U3-39h" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="EdX-hb-8TS"/>
+                                                            <constraint firstItem="LZh-LS-xFZ" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="Imw-e5-Xnq"/>
+                                                            <constraint firstItem="xIW-AK-Xbs" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="PEi-gJ-ytv"/>
+                                                            <constraint firstItem="tur-7Q-1LG" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="iGo-ub-igc"/>
+                                                            <constraint firstItem="6OK-89-U3o" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="ifb-u9-Vhh"/>
+                                                            <constraint firstItem="Zbk-Ht-7wJ" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="kUs-C2-tzp"/>
+                                                            <constraint firstItem="nFa-vs-fca" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="ku9-u6-xMu"/>
+                                                            <constraint firstItem="Wuo-dO-fcY" firstAttribute="centerX" secondItem="N9A-gs-6DG" secondAttribute="centerX" id="l66-7a-xtR"/>
+                                                            <constraint firstItem="qO2-tS-LVK" firstAttribute="width" secondItem="N9A-gs-6DG" secondAttribute="width" id="sx4-DQ-IH1"/>
+                                                            <constraint firstItem="7YR-S2-74X" firstAttribute="centerX" secondItem="N9A-gs-6DG" secondAttribute="centerX" id="wN7-WW-gxV"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="1300" id="6kQ-DG-lOy"/>
+                                                    <constraint firstItem="N9A-gs-6DG" firstAttribute="leading" secondItem="wXK-g1-kh7" secondAttribute="leading" constant="16" id="NQn-0G-ghO"/>
+                                                    <constraint firstItem="N9A-gs-6DG" firstAttribute="top" secondItem="wXK-g1-kh7" secondAttribute="top" constant="16" id="eQK-ga-H3J"/>
+                                                    <constraint firstAttribute="bottom" secondItem="N9A-gs-6DG" secondAttribute="bottom" constant="8" id="i1m-bb-PSa"/>
+                                                    <constraint firstAttribute="trailing" secondItem="N9A-gs-6DG" secondAttribute="trailing" constant="16" id="prz-5h-6Z4"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.94901960784313721" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="wXK-g1-kh7" firstAttribute="centerY" secondItem="2qg-Il-dNL" secondAttribute="centerY" id="CMx-jK-D6D"/>
+                                            <constraint firstItem="wXK-g1-kh7" firstAttribute="height" secondItem="2qg-Il-dNL" secondAttribute="height" id="ayH-a2-y4Q"/>
+                                            <constraint firstItem="wXK-g1-kh7" firstAttribute="centerX" secondItem="2qg-Il-dNL" secondAttribute="centerX" id="gBZ-Bg-RXd"/>
+                                            <constraint firstItem="wXK-g1-kh7" firstAttribute="width" secondItem="2qg-Il-dNL" secondAttribute="width" id="rcJ-OW-4uK"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="2qg-Il-dNL" firstAttribute="leading" secondItem="PPo-2g-Nga" secondAttribute="leading" id="L08-95-CMe"/>
+                                    <constraint firstAttribute="bottom" secondItem="2qg-Il-dNL" secondAttribute="bottom" id="TAc-Xe-kup"/>
+                                    <constraint firstAttribute="trailing" secondItem="2qg-Il-dNL" secondAttribute="trailing" id="nAb-8Y-uwg"/>
+                                    <constraint firstItem="2qg-Il-dNL" firstAttribute="top" secondItem="PPo-2g-Nga" secondAttribute="top" constant="2" id="ymY-Uw-WkU"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94901960780000005" green="0.94117647059999998" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="H8W-tB-U1G" firstAttribute="top" secondItem="PPo-2g-Nga" secondAttribute="bottom" id="0WJ-4w-1vB"/>
+                            <constraint firstAttribute="trailing" secondItem="PPo-2g-Nga" secondAttribute="trailing" id="8DV-xP-lPB"/>
+                            <constraint firstItem="PPo-2g-Nga" firstAttribute="leading" secondItem="PPo-wq-sH5" secondAttribute="leading" id="8IU-cv-RbM"/>
+                            <constraint firstItem="PPo-2g-Nga" firstAttribute="top" secondItem="Upz-ei-cdS" secondAttribute="bottom" id="eMI-6P-jnq"/>
+                            <constraint firstItem="wXK-g1-kh7" firstAttribute="width" secondItem="PPo-wq-sH5" secondAttribute="width" id="ppF-ej-yzD"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1300"/>
+                    <connections>
+                        <outlet property="contentLabel" destination="UAq-uX-rdR" id="xoo-Nj-scJ"/>
+                        <outlet property="contentView" destination="2qg-Il-dNL" id="kqZ-qC-fqu"/>
+                        <outlet property="designLabel" destination="Rrp-hz-vq5" id="Bsl-M2-85C"/>
+                        <outlet property="developmentLabel" destination="xOL-vb-kOj" id="WWK-Th-CtR"/>
+                        <outlet property="facultyAdvisorLabel" destination="Xhp-cC-DEG" id="Cxd-bi-ZUD"/>
+                        <outlet property="scrollView" destination="PPo-2g-Nga" id="CyI-XO-tFa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7d9-Ef-aae" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="69.5" y="92"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon" width="1200" height="1200"/>
+        <image name="Sponsor" width="1327" height="347"/>
+    </resources>
+</document>

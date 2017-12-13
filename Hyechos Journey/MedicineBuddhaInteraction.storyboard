@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2657" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="29k-4f-29H">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Medicine Buddha View Controller-->
+        <scene sceneID="CGt-RW-4Eg">
+            <objects>
+                <viewController id="29k-4f-29H" customClass="MedicineBuddhaViewController" customModule="Hyechos_Journey" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="pK6-kW-0Nc"/>
+                        <viewControllerLayoutGuide type="bottom" id="heJ-oY-7Ov"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ixx-RS-OMz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Af-zA-jol" userLabel="GameView" customClass="SKView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6Af-zA-jol" firstAttribute="width" secondItem="ixx-RS-OMz" secondAttribute="width" id="1FX-b7-G8T"/>
+                            <constraint firstItem="6Af-zA-jol" firstAttribute="centerY" secondItem="ixx-RS-OMz" secondAttribute="centerY" id="7yX-Es-kDU"/>
+                            <constraint firstItem="6Af-zA-jol" firstAttribute="height" secondItem="ixx-RS-OMz" secondAttribute="height" id="Uow-rk-2dc"/>
+                            <constraint firstItem="6Af-zA-jol" firstAttribute="centerX" secondItem="ixx-RS-OMz" secondAttribute="centerX" id="cpK-BD-6mO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="gameView" destination="6Af-zA-jol" id="u9C-hW-kMW"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zSC-tD-cZR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8.8000000000000007" y="93.103448275862078"/>
+        </scene>
+    </scenes>
+</document>

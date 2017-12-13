@@ -1,0 +1,1178 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052EC22F1ECE1F9E000A4E0B /* ChapterSelectScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 052EC22E1ECE1F9E000A4E0B /* ChapterSelectScreen.swift */; };
+		0563DE261EE729DA00157957 /* MapScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0563DE251EE729DA00157957 /* MapScreen.storyboard */; };
+		0563DE281EE72A3C00157957 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563DE271EE72A3C00157957 /* ScrollViewController.swift */; };
+		0563DE7C1EF07C3B00157957 /* KizilGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563DE7B1EF07C3B00157957 /* KizilGameScene.swift */; };
+		0563DE821EF07CCA00157957 /* PuzzleInteraction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0563DE7F1EF07CCA00157957 /* PuzzleInteraction.storyboard */; };
+		0563DE851EF07CD500157957 /* KizilGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0563DE831EF07CD500157957 /* KizilGameScene.sks */; };
+		0563DE861EF07CD500157957 /* KizilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563DE841EF07CD500157957 /* KizilViewController.swift */; };
+		0563DEA81EF4592C00157957 /* MaraGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563DEA71EF4592C00157957 /* MaraGameViewController.swift */; };
+		057C7B0C1ED4B67800E7E208 /* toolBarInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C7B0B1ED4B67800E7E208 /* toolBarInfo.swift */; };
+		057C7B0E1ED7738700E7E208 /* JourneySelectionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C7B0D1ED7738700E7E208 /* JourneySelectionScreen.swift */; };
+		0588CA7F1F058112006AC5A8 /* CircleSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588CA7A1F058112006AC5A8 /* CircleSlider.swift */; };
+		0588CA801F058112006AC5A8 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588CA7B1F058112006AC5A8 /* Math.swift */; };
+		0588CA811F058112006AC5A8 /* StupaInteraction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0588CA7C1F058112006AC5A8 /* StupaInteraction.storyboard */; };
+		0588CA821F058112006AC5A8 /* StupaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588CA7D1F058112006AC5A8 /* StupaViewController.swift */; };
+		0588CA831F058112006AC5A8 /* TrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588CA7E1F058112006AC5A8 /* TrackLayer.swift */; };
+		0588CA851F058557006AC5A8 /* Conversation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0588CA841F058557006AC5A8 /* Conversation.storyboard */; };
+		0588CA871F058637006AC5A8 /* HyechoInteraction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0588CA861F058637006AC5A8 /* HyechoInteraction.storyboard */; };
+		0588CA8C1F0C9065006AC5A8 /* HyechoStatueGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0588CA8A1F0C9065006AC5A8 /* HyechoStatueGameScene.sks */; };
+		0588CA8D1F0C9065006AC5A8 /* HyechoStatueGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588CA8B1F0C9065006AC5A8 /* HyechoStatueGameScene.swift */; };
+		0588CA911F0C908B006AC5A8 /* MedicineBuddhaGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588CA8F1F0C908B006AC5A8 /* MedicineBuddhaGameScene.swift */; };
+		0588CA931F0C90AA006AC5A8 /* MedicineBuddhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588CA921F0C90AA006AC5A8 /* MedicineBuddhaViewController.swift */; };
+		0588CA951F0C90CD006AC5A8 /* LeafParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0588CA941F0C90CD006AC5A8 /* LeafParticle.sks */; };
+		0588CA991F1546F2006AC5A8 /* InteractionText.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0588CA981F1546F2006AC5A8 /* InteractionText.plist */; };
+		0588CAB21F1E7A38006AC5A8 /* BTNavigationDropdownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588CAB11F1E7A38006AC5A8 /* BTNavigationDropdownMenu.swift */; };
+		0588CAB61F1FECE7006AC5A8 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588CAB51F1FECE7006AC5A8 /* HomeScreenViewController.swift */; };
+		0588CABB1F226C16006AC5A8 /* LearnMore.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0588CABA1F226C16006AC5A8 /* LearnMore.storyboard */; };
+		0588CABD1F226CFB006AC5A8 /* LearnMoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588CABC1F226CFB006AC5A8 /* LearnMoreViewController.swift */; };
+		0588CABF1F226FC2006AC5A8 /* AboutUs.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0588CABE1F226FC2006AC5A8 /* AboutUs.storyboard */; };
+		0588CAC11F22736E006AC5A8 /* Collection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0588CAC01F22736E006AC5A8 /* Collection.storyboard */; };
+		0588CAC31F227398006AC5A8 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0588CAC21F227398006AC5A8 /* CollectionViewController.swift */; };
+		05A0A8BD1EBBA14D00499E7C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A0A8BC1EBBA14D00499E7C /* DataController.swift */; };
+		05BDAAB21E60C69900133613 /* hyechoData.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05BDAAB11E60C69900133613 /* hyechoData.plist */; };
+		05ECC72A1E8DFC630062EF6E /* ChapterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ECC7291E8DFC630062EF6E /* ChapterViewController.swift */; };
+		05ECC72C1E8DFCDA0062EF6E /* JournalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05ECC72B1E8DFCDA0062EF6E /* JournalCell.swift */; };
+		05F4914E1F2A7665007FA10B /* Hyecho+MutableCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F4914D1F2A7665007FA10B /* Hyecho+MutableCollection.swift */; };
+		05F491911F2BE81D007FA10B /* Bharhut_Fence_King_Visits_The_Buddha.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F491891F2BE81D007FA10B /* Bharhut_Fence_King_Visits_The_Buddha.png */; };
+		05F491921F2BE81D007FA10B /* Defeat_of_Mara.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F4918A1F2BE81D007FA10B /* Defeat_of_Mara.png */; };
+		05F491931F2BE81D007FA10B /* Ewer_Decorated_With_Female_Figures.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F4918B1F2BE81D007FA10B /* Ewer_Decorated_With_Female_Figures.png */; };
+		05F491941F2BE81D007FA10B /* Figure_Of_A_Buddhist_Monk_Standing_On_A_Lotus.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F4918C1F2BE81D007FA10B /* Figure_Of_A_Buddhist_Monk_Standing_On_A_Lotus.png */; };
+		05F491951F2BE81D007FA10B /* Fragment_From_The_Kizil_Caves.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F4918D1F2BE81D007FA10B /* Fragment_From_The_Kizil_Caves.png */; };
+		05F491961F2BE81D007FA10B /* Head_Of_The_Buddha.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F4918E1F2BE81D007FA10B /* Head_Of_The_Buddha.png */; };
+		05F491971F2BE81D007FA10B /* Medicine_Buddha.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F4918F1F2BE81D007FA10B /* Medicine_Buddha.png */; };
+		05F491981F2BE81D007FA10B /* The_Buddhas_Prabhutaratna_And_Sakyamuni_Seated_Sided_By_Side.png in Resources */ = {isa = PBXBuildFile; fileRef = 05F491901F2BE81D007FA10B /* The_Buddhas_Prabhutaratna_And_Sakyamuni_Seated_Sided_By_Side.png */; };
+		05FC67351F3E2B43000C1B2C /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC67341F3E2B43000C1B2C /* AboutUsViewController.swift */; };
+		05FC67371F44CAEE000C1B2C /* PoemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC67361F44CAEE000C1B2C /* PoemView.swift */; };
+		05FC67391F89804A000C1B2C /* Hyecho+UIDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FC67381F89804A000C1B2C /* Hyecho+UIDevice.swift */; };
+		4F975A191F27CF7500609E19 /* EwerGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F975A141F27CF7500609E19 /* EwerGameScene.swift */; };
+		4F975A1A1F27CF7500609E19 /* EwerInteraction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F975A151F27CF7500609E19 /* EwerInteraction.storyboard */; };
+		4F975A1B1F27CF7500609E19 /* EwerInteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F975A161F27CF7500609E19 /* EwerInteractionViewController.swift */; };
+		4F975A1E1F27D18400609E19 /* EwerGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4F975A1D1F27D18400609E19 /* EwerGameScene.sks */; };
+		4FDFAEE01F3B928300AA4F3B /* cupimageanimate.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 4FDFAEDF1F3B928300AA4F3B /* cupimageanimate.atlas */; };
+		4FF2DBE51FC4783E00D66B16 /* MaraGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0563DEAD1EF45A1A00157957 /* MaraGameScene.swift */; };
+		9A1930191EC234240048A38A /* ItemInformationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1930181EC234240048A38A /* ItemInformationCell.swift */; };
+		9A19301B1EC256DF0048A38A /* ChapterItemPreviewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A19301A1EC256DF0048A38A /* ChapterItemPreviewCell.swift */; };
+		9A3994B81ECF8BAB00FE827F /* Hyecho+UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3994B71ECF8BAB00FE827F /* Hyecho+UIImage.swift */; };
+		9A3E38EC1F16734C00377E4C /* SculptingCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3E38EB1F16734C00377E4C /* SculptingCompletionView.swift */; };
+		9A3E38EE1F1673A600377E4C /* Hyecho+CGPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3E38ED1F1673A600377E4C /* Hyecho+CGPoint.swift */; };
+		9A4933531EE08275001EFBBB /* TerrainMesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4933521EE08275001EFBBB /* TerrainMesh.swift */; };
+		9A53D2A21EE1F59B00FBEF46 /* SculptingTouch.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 9A53D2A01EE1F59B00FBEF46 /* SculptingTouch.scnp */; };
+		9A57C59D1E494B78007345AC /* Hyecho+UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A57C59C1E494B78007345AC /* Hyecho+UITableView.swift */; };
+		9A66F1691EBBA7350076FE2A /* ExpandingTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A66F1681EBBA7350076FE2A /* ExpandingTextCell.swift */; };
+		9A66F16B1EBBA9C10076FE2A /* ExpandingTitleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A66F16A1EBBA9C10076FE2A /* ExpandingTitleCell.swift */; };
+		9A78FB9D1ECE2EB00048E73F /* SculptingInteraction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A78FB9C1ECE2EB00048E73F /* SculptingInteraction.storyboard */; };
+		9A78FB9F1ECE2EDD0048E73F /* SculptingInteractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A78FB9E1ECE2EDD0048E73F /* SculptingInteractionViewController.swift */; };
+		9A78FBA11ECE2F6A0048E73F /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A78FBA01ECE2F6A0048E73F /* DrawView.swift */; };
+		9A878B411E70F525003FF466 /* DetailImageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A878B401E70F525003FF466 /* DetailImageView.xib */; };
+		9A878B431E70F696003FF466 /* DetailImagePopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A878B421E70F696003FF466 /* DetailImagePopupView.swift */; };
+		9A878B451E70FD75003FF466 /* AppInfo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A878B441E70FD75003FF466 /* AppInfo.xib */; };
+		9A878B471E71001F003FF466 /* AppInfoPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A878B461E71001F003FF466 /* AppInfoPopupView.swift */; };
+		9A8830091E82D18C00067B35 /* MultiHeightLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8830081E82D18C00067B35 /* MultiHeightLayout.swift */; };
+		9A9103041ED8B06100A4CBB8 /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9103031ED8B06100A4CBB8 /* ColorPicker.swift */; };
+		9A99A3671E8B3E39006EBC6E /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A99A3661E8B3E39006EBC6E /* Preferences.swift */; };
+		9A9CF9D61E8029220072982D /* Hyecho+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9CF9D51E8029220072982D /* Hyecho+UIView.swift */; };
+		9A9E5A631F7DA1DE0099FC8A /* ChapterEndPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A9E5A621F7DA1DE0099FC8A /* ChapterEndPopup.xib */; };
+		9A9E5A651F7DA6370099FC8A /* EndOfChapterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9E5A641F7DA6370099FC8A /* EndOfChapterView.swift */; };
+		9AAE4F561E5F368B00558F5C /* Hyecho+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE4F551E5F368B00558F5C /* Hyecho+UIViewController.swift */; };
+		9AAE4F581E5F36BD00558F5C /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE4F571E5F36BD00558F5C /* PopupView.swift */; };
+		9AAE4F5A1E5F36E700558F5C /* HeadphonesPopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAE4F591E5F36E700558F5C /* HeadphonesPopupView.swift */; };
+		9AAE4F5C1E5F370600558F5C /* HeadphonesPopup.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AAE4F5B1E5F370600558F5C /* HeadphonesPopup.xib */; };
+		9AB3E82C1EBCEDBD007C8ED5 /* ChapterIntro.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AB3E82B1EBCEDBD007C8ED5 /* ChapterIntro.xib */; };
+		9AB3E82E1EBCEE52007C8ED5 /* ChapterIntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3E82D1EBCEE52007C8ED5 /* ChapterIntroView.swift */; };
+		9AB3E8301EBD062D007C8ED5 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3E82F1EBD062D007C8ED5 /* ItemViewController.swift */; };
+		9AC75DA31EC4E35F007EFB15 /* ChapterHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AC75DA21EC4E35F007EFB15 /* ChapterHeaderCell.swift */; };
+		9ACC4E321E4D6B9500F8DC35 /* Hyecho+TimeInterval.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ACC4E311E4D6B9500F8DC35 /* Hyecho+TimeInterval.swift */; };
+		9AD6D8581F17B39700C61E3D /* Hyecho+DispatchTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD6D8571F17B39700C61E3D /* Hyecho+DispatchTime.swift */; };
+		9AE80D8D1F18E571001C87A8 /* Hyecho+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE80D8C1F18E571001C87A8 /* Hyecho+UIButton.swift */; };
+		9AEA1C111EC0E06400430341 /* Hyecho+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA1C101EC0E06400430341 /* Hyecho+UIColor.swift */; };
+		9AEA1C151EC106E300430341 /* ItemImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEA1C141EC106E300430341 /* ItemImageCell.swift */; };
+		9AEF7DE41E39845F006EA63E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEF7DE31E39845F006EA63E /* AppDelegate.swift */; };
+		9AEF7DE91E39845F006EA63E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AEF7DE71E39845F006EA63E /* Main.storyboard */; };
+		9AEF7DEC1E39845F006EA63E /* Hyechos_Journey.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9AEF7DEA1E39845F006EA63E /* Hyechos_Journey.xcdatamodeld */; };
+		9AEF7DEE1E39845F006EA63E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AEF7DED1E39845F006EA63E /* Assets.xcassets */; };
+		9AEF7DF11E39845F006EA63E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AEF7DEF1E39845F006EA63E /* LaunchScreen.storyboard */; };
+		9AEF7DFC1E39845F006EA63E /* Hyechos_JourneyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEF7DFB1E39845F006EA63E /* Hyechos_JourneyTests.swift */; };
+		9AEF7E071E39845F006EA63E /* Hyechos_JourneyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEF7E061E39845F006EA63E /* Hyechos_JourneyUITests.swift */; };
+		FE01D2371EFB09B6004B3B03 /* newMaraGameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE01D2361EFB09B6004B3B03 /* newMaraGameScene.sks */; };
+		FE01D23E1EFEB880004B3B03 /* HyechoInteractionGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE01D23D1EFEB880004B3B03 /* HyechoInteractionGameViewController.swift */; };
+		FE1105021F422C3300F38D46 /* Medicine2.sks in Resources */ = {isa = PBXBuildFile; fileRef = FE1105011F422C3300F38D46 /* Medicine2.sks */; };
+		FE1B15371E4D2EC8001E21C5 /* PickerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE1B15351E4D2EC8001E21C5 /* PickerTableViewCell.swift */; };
+		FE9642141EE9D84900B8373F /* MedicineBuddhaInteraction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE9642131EE9D84900B8373F /* MedicineBuddhaInteraction.storyboard */; };
+		FEA791741F0199DC00CD5935 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEA791721F0199DC00CD5935 /* ConversationViewController.swift */; };
+		FEB8BD5C1F227C0B009D5169 /* GlowingGold.sks in Resources */ = {isa = PBXBuildFile; fileRef = FEB8BD5A1F227C0B009D5169 /* GlowingGold.sks */; };
+		FEC3B34A1ED7536200B90F1F /* MaraInteraction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEC3B3491ED7536200B90F1F /* MaraInteraction.storyboard */; };
+		FEE05D301F27CB7E00A486CA /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE05D281F27CB7E00A486CA /* DPDConstants.swift */; };
+		FEE05D311F27CB7E00A486CA /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE05D291F27CB7E00A486CA /* DPDKeyboardListener.swift */; };
+		FEE05D321F27CB7E00A486CA /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE05D2A1F27CB7E00A486CA /* DPDUIView+Extension.swift */; };
+		FEE05D331F27CB7E00A486CA /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE05D2C1F27CB7E00A486CA /* DropDown.swift */; };
+		FEE05D341F27CB7E00A486CA /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE05D2D1F27CB7E00A486CA /* DropDown+Appearance.swift */; };
+		FEE05D351F27CB7E00A486CA /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE05D2E1F27CB7E00A486CA /* DropDownCell.swift */; };
+		FEE05D361F27CB7E00A486CA /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FEE05D2F1F27CB7E00A486CA /* DropDownCell.xib */; };
+		FEE05D3A1F27CC7F00A486CA /* EndScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEE05D381F27CC7F00A486CA /* EndScreen.storyboard */; };
+		FEE05D3B1F27CC7F00A486CA /* EndScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE05D391F27CC7F00A486CA /* EndScreenViewController.swift */; };
+		FEE6A8661F2A5748008B467A /* Pouring.sks in Resources */ = {isa = PBXBuildFile; fileRef = FEE6A8651F2A5748008B467A /* Pouring.sks */; };
+		FEF01EA91EDF521600E4FD6B /* SKMultiLineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF01EA81EDF521600E4FD6B /* SKMultiLineLabel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9AEF7DF81E39845F006EA63E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AEF7DD81E39845E006EA63E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AEF7DDF1E39845E006EA63E;
+			remoteInfo = "Hyechos Journey";
+		};
+		9AEF7E031E39845F006EA63E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9AEF7DD81E39845E006EA63E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9AEF7DDF1E39845E006EA63E;
+			remoteInfo = "Hyechos Journey";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		052EC22E1ECE1F9E000A4E0B /* ChapterSelectScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterSelectScreen.swift; sourceTree = "<group>"; };
+		0563DE251EE729DA00157957 /* MapScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MapScreen.storyboard; sourceTree = "<group>"; };
+		0563DE271EE72A3C00157957 /* ScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		0563DE7B1EF07C3B00157957 /* KizilGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KizilGameScene.swift; sourceTree = "<group>"; };
+		0563DE7F1EF07CCA00157957 /* PuzzleInteraction.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = PuzzleInteraction.storyboard; sourceTree = "<group>"; };
+		0563DE831EF07CD500157957 /* KizilGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = KizilGameScene.sks; sourceTree = "<group>"; };
+		0563DE841EF07CD500157957 /* KizilViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KizilViewController.swift; sourceTree = "<group>"; };
+		0563DEA71EF4592C00157957 /* MaraGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaraGameViewController.swift; sourceTree = "<group>"; };
+		0563DEAD1EF45A1A00157957 /* MaraGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaraGameScene.swift; sourceTree = "<group>"; };
+		057C7B0B1ED4B67800E7E208 /* toolBarInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = toolBarInfo.swift; sourceTree = "<group>"; };
+		057C7B0D1ED7738700E7E208 /* JourneySelectionScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JourneySelectionScreen.swift; sourceTree = "<group>"; };
+		0588CA7A1F058112006AC5A8 /* CircleSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleSlider.swift; sourceTree = "<group>"; };
+		0588CA7B1F058112006AC5A8 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		0588CA7C1F058112006AC5A8 /* StupaInteraction.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = StupaInteraction.storyboard; sourceTree = "<group>"; };
+		0588CA7D1F058112006AC5A8 /* StupaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StupaViewController.swift; sourceTree = "<group>"; };
+		0588CA7E1F058112006AC5A8 /* TrackLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackLayer.swift; sourceTree = "<group>"; };
+		0588CA841F058557006AC5A8 /* Conversation.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Conversation.storyboard; path = "Hyechos Journey/Conversation.storyboard"; sourceTree = "<group>"; };
+		0588CA861F058637006AC5A8 /* HyechoInteraction.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = HyechoInteraction.storyboard; path = "Hyechos Journey/HyechoInteraction.storyboard"; sourceTree = "<group>"; };
+		0588CA8A1F0C9065006AC5A8 /* HyechoStatueGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = HyechoStatueGameScene.sks; path = "Hyechos Journey/HyechoStatueGameScene.sks"; sourceTree = "<group>"; };
+		0588CA8B1F0C9065006AC5A8 /* HyechoStatueGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HyechoStatueGameScene.swift; path = "Hyechos Journey/HyechoStatueGameScene.swift"; sourceTree = "<group>"; };
+		0588CA8F1F0C908B006AC5A8 /* MedicineBuddhaGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedicineBuddhaGameScene.swift; path = "Hyechos Journey/MedicineBuddhaGameScene.swift"; sourceTree = "<group>"; };
+		0588CA921F0C90AA006AC5A8 /* MedicineBuddhaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MedicineBuddhaViewController.swift; path = "Hyechos Journey/MedicineBuddhaViewController.swift"; sourceTree = "<group>"; };
+		0588CA941F0C90CD006AC5A8 /* LeafParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = LeafParticle.sks; sourceTree = "<group>"; };
+		0588CA981F1546F2006AC5A8 /* InteractionText.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = InteractionText.plist; sourceTree = "<group>"; };
+		0588CAB11F1E7A38006AC5A8 /* BTNavigationDropdownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BTNavigationDropdownMenu.swift; sourceTree = "<group>"; };
+		0588CAB51F1FECE7006AC5A8 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		0588CABA1F226C16006AC5A8 /* LearnMore.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LearnMore.storyboard; sourceTree = "<group>"; };
+		0588CABC1F226CFB006AC5A8 /* LearnMoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnMoreViewController.swift; sourceTree = "<group>"; };
+		0588CABE1F226FC2006AC5A8 /* AboutUs.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AboutUs.storyboard; sourceTree = "<group>"; };
+		0588CAC01F22736E006AC5A8 /* Collection.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Collection.storyboard; sourceTree = "<group>"; };
+		0588CAC21F227398006AC5A8 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		05A0A8BC1EBBA14D00499E7C /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		05BDAAB11E60C69900133613 /* hyechoData.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = hyechoData.plist; sourceTree = "<group>"; };
+		05ECC7291E8DFC630062EF6E /* ChapterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterViewController.swift; sourceTree = "<group>"; };
+		05ECC72B1E8DFCDA0062EF6E /* JournalCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalCell.swift; sourceTree = "<group>"; };
+		05F4914D1F2A7665007FA10B /* Hyecho+MutableCollection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hyecho+MutableCollection.swift"; sourceTree = "<group>"; };
+		05F491891F2BE81D007FA10B /* Bharhut_Fence_King_Visits_The_Buddha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bharhut_Fence_King_Visits_The_Buddha.png; sourceTree = "<group>"; };
+		05F4918A1F2BE81D007FA10B /* Defeat_of_Mara.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Defeat_of_Mara.png; sourceTree = "<group>"; };
+		05F4918B1F2BE81D007FA10B /* Ewer_Decorated_With_Female_Figures.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ewer_Decorated_With_Female_Figures.png; sourceTree = "<group>"; };
+		05F4918C1F2BE81D007FA10B /* Figure_Of_A_Buddhist_Monk_Standing_On_A_Lotus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Figure_Of_A_Buddhist_Monk_Standing_On_A_Lotus.png; sourceTree = "<group>"; };
+		05F4918D1F2BE81D007FA10B /* Fragment_From_The_Kizil_Caves.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Fragment_From_The_Kizil_Caves.png; sourceTree = "<group>"; };
+		05F4918E1F2BE81D007FA10B /* Head_Of_The_Buddha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Head_Of_The_Buddha.png; sourceTree = "<group>"; };
+		05F4918F1F2BE81D007FA10B /* Medicine_Buddha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Medicine_Buddha.png; sourceTree = "<group>"; };
+		05F491901F2BE81D007FA10B /* The_Buddhas_Prabhutaratna_And_Sakyamuni_Seated_Sided_By_Side.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = The_Buddhas_Prabhutaratna_And_Sakyamuni_Seated_Sided_By_Side.png; sourceTree = "<group>"; };
+		05FC67341F3E2B43000C1B2C /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		05FC67361F44CAEE000C1B2C /* PoemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoemView.swift; sourceTree = "<group>"; };
+		05FC67381F89804A000C1B2C /* Hyecho+UIDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hyecho+UIDevice.swift"; sourceTree = "<group>"; };
+		4F975A141F27CF7500609E19 /* EwerGameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EwerGameScene.swift; sourceTree = "<group>"; };
+		4F975A151F27CF7500609E19 /* EwerInteraction.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EwerInteraction.storyboard; sourceTree = "<group>"; };
+		4F975A161F27CF7500609E19 /* EwerInteractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EwerInteractionViewController.swift; sourceTree = "<group>"; };
+		4F975A1D1F27D18400609E19 /* EwerGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = EwerGameScene.sks; sourceTree = "<group>"; };
+		4FDFAEDF1F3B928300AA4F3B /* cupimageanimate.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = cupimageanimate.atlas; sourceTree = "<group>"; };
+		9A1930181EC234240048A38A /* ItemInformationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemInformationCell.swift; sourceTree = "<group>"; };
+		9A19301A1EC256DF0048A38A /* ChapterItemPreviewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterItemPreviewCell.swift; sourceTree = "<group>"; };
+		9A3994B71ECF8BAB00FE827F /* Hyecho+UIImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hyecho+UIImage.swift"; sourceTree = "<group>"; };
+		9A3E38EB1F16734C00377E4C /* SculptingCompletionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SculptingCompletionView.swift; sourceTree = "<group>"; };
+		9A3E38ED1F1673A600377E4C /* Hyecho+CGPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hyecho+CGPoint.swift"; sourceTree = "<group>"; };
+		9A4933521EE08275001EFBBB /* TerrainMesh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TerrainMesh.swift; sourceTree = "<group>"; };
+		9A53D2A01EE1F59B00FBEF46 /* SculptingTouch.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = SculptingTouch.scnp; sourceTree = "<group>"; };
+		9A57C59C1E494B78007345AC /* Hyecho+UITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hyecho+UITableView.swift"; sourceTree = "<group>"; };
+		9A66F1681EBBA7350076FE2A /* ExpandingTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandingTextCell.swift; sourceTree = "<group>"; };
+		9A66F16A1EBBA9C10076FE2A /* ExpandingTitleCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandingTitleCell.swift; sourceTree = "<group>"; };
+		9A78FB9C1ECE2EB00048E73F /* SculptingInteraction.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SculptingInteraction.storyboard; sourceTree = "<group>"; };
+		9A78FB9E1ECE2EDD0048E73F /* SculptingInteractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SculptingInteractionViewController.swift; sourceTree = "<group>"; };
+		9A78FBA01ECE2F6A0048E73F /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
+		9A878B401E70F525003FF466 /* DetailImageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailImageView.xib; sourceTree = "<group>"; };
+		9A878B421E70F696003FF466 /* DetailImagePopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailImagePopupView.swift; sourceTree = "<group>"; };
+		9A878B441E70FD75003FF466 /* AppInfo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppInfo.xib; sourceTree = "<group>"; };
+		9A878B461E71001F003FF466 /* AppInfoPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppInfoPopupView.swift; sourceTree = "<group>"; };
+		9A8830081E82D18C00067B35 /* MultiHeightLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultiHeightLayout.swift; sourceTree = "<group>"; };
+		9A8AF94D1EDDF82400F9E707 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		9A9103031ED8B06100A4CBB8 /* ColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		9A99A3661E8B3E39006EBC6E /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		9A9CF9D51E8029220072982D /* Hyecho+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hyecho+UIView.swift"; sourceTree = "<group>"; };
+		9A9E5A621F7DA1DE0099FC8A /* ChapterEndPopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterEndPopup.xib; sourceTree = "<group>"; };
+		9A9E5A641F7DA6370099FC8A /* EndOfChapterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndOfChapterView.swift; sourceTree = "<group>"; };
+		9AAE4F551E5F368B00558F5C /* Hyecho+UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hyecho+UIViewController.swift"; sourceTree = "<group>"; };
+		9AAE4F571E5F36BD00558F5C /* PopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
+		9AAE4F591E5F36E700558F5C /* HeadphonesPopupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeadphonesPopupView.swift; sourceTree = "<group>"; };
+		9AAE4F5B1E5F370600558F5C /* HeadphonesPopup.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeadphonesPopup.xib; sourceTree = "<group>"; };
+		9AB3E82B1EBCEDBD007C8ED5 /* ChapterIntro.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterIntro.xib; sourceTree = "<group>"; };
+		9AB3E82D1EBCEE52007C8ED5 /* ChapterIntroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterIntroView.swift; sourceTree = "<group>"; };
+		9AB3E82F1EBD062D007C8ED5 /* ItemViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		9AC75DA21EC4E35F007EFB15 /* ChapterHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterHeaderCell.swift; sourceTree = "<group>"; };
+		9ACC4E311E4D6B9500F8DC35 /* Hyecho+TimeInterval.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hyecho+TimeInterval.swift"; sourceTree = "<group>"; };
+		9AD6D8571F17B39700C61E3D /* Hyecho+DispatchTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hyecho+DispatchTime.swift"; sourceTree = "<group>"; };
+		9AE80D8C1F18E571001C87A8 /* Hyecho+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hyecho+UIButton.swift"; sourceTree = "<group>"; };
+		9AEA1C101EC0E06400430341 /* Hyecho+UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Hyecho+UIColor.swift"; sourceTree = "<group>"; };
+		9AEA1C141EC106E300430341 /* ItemImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemImageCell.swift; sourceTree = "<group>"; };
+		9AEF7DE01E39845F006EA63E /* Hyechos Journey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hyechos Journey.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEF7DE31E39845F006EA63E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9AEF7DE81E39845F006EA63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9AEF7DEB1E39845F006EA63E /* Hyechos_Journey.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Hyechos_Journey.xcdatamodel; sourceTree = "<group>"; };
+		9AEF7DED1E39845F006EA63E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9AEF7DF01E39845F006EA63E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9AEF7DF21E39845F006EA63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AEF7DF71E39845F006EA63E /* Hyechos JourneyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hyechos JourneyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEF7DFB1E39845F006EA63E /* Hyechos_JourneyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hyechos_JourneyTests.swift; sourceTree = "<group>"; };
+		9AEF7DFD1E39845F006EA63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AEF7E021E39845F006EA63E /* Hyechos JourneyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hyechos JourneyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEF7E061E39845F006EA63E /* Hyechos_JourneyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hyechos_JourneyUITests.swift; sourceTree = "<group>"; };
+		9AEF7E081E39845F006EA63E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE01D2361EFB09B6004B3B03 /* newMaraGameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = newMaraGameScene.sks; sourceTree = "<group>"; };
+		FE01D23D1EFEB880004B3B03 /* HyechoInteractionGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HyechoInteractionGameViewController.swift; sourceTree = "<group>"; };
+		FE1105011F422C3300F38D46 /* Medicine2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Medicine2.sks; sourceTree = "<group>"; };
+		FE1B15351E4D2EC8001E21C5 /* PickerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerTableViewCell.swift; sourceTree = "<group>"; };
+		FE9642131EE9D84900B8373F /* MedicineBuddhaInteraction.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = MedicineBuddhaInteraction.storyboard; path = "Hyechos Journey/MedicineBuddhaInteraction.storyboard"; sourceTree = "<group>"; };
+		FEA791721F0199DC00CD5935 /* ConversationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ConversationViewController.swift; path = "Hyechos Journey/ConversationViewController.swift"; sourceTree = "<group>"; };
+		FEB8BD5A1F227C0B009D5169 /* GlowingGold.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = GlowingGold.sks; path = ../GlowingGold.sks; sourceTree = "<group>"; };
+		FEC3B3491ED7536200B90F1F /* MaraInteraction.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MaraInteraction.storyboard; sourceTree = "<group>"; };
+		FEE05D281F27CB7E00A486CA /* DPDConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = "Hyechos Journey/DPDConstants.swift"; sourceTree = "<group>"; };
+		FEE05D291F27CB7E00A486CA /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = "Hyechos Journey/DPDKeyboardListener.swift"; sourceTree = "<group>"; };
+		FEE05D2A1F27CB7E00A486CA /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "Hyechos Journey/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		FEE05D2B1F27CB7E00A486CA /* DropDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DropDown.h; path = "Hyechos Journey/DropDown.h"; sourceTree = "<group>"; };
+		FEE05D2C1F27CB7E00A486CA /* DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = "Hyechos Journey/DropDown.swift"; sourceTree = "<group>"; };
+		FEE05D2D1F27CB7E00A486CA /* DropDown+Appearance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "Hyechos Journey/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		FEE05D2E1F27CB7E00A486CA /* DropDownCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = "Hyechos Journey/DropDownCell.swift"; sourceTree = "<group>"; };
+		FEE05D2F1F27CB7E00A486CA /* DropDownCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DropDownCell.xib; path = "Hyechos Journey/DropDownCell.xib"; sourceTree = "<group>"; };
+		FEE05D381F27CC7F00A486CA /* EndScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = EndScreen.storyboard; sourceTree = "<group>"; };
+		FEE05D391F27CC7F00A486CA /* EndScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndScreenViewController.swift; sourceTree = "<group>"; };
+		FEE6A8651F2A5748008B467A /* Pouring.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Pouring.sks; sourceTree = "<group>"; };
+		FEF01EA81EDF521600E4FD6B /* SKMultiLineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMultiLineLabel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9AEF7DDD1E39845E006EA63E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEF7DF41E39845F006EA63E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEF7DFF1E39845F006EA63E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0563DE7A1EF07C2C00157957 /* Kizil */ = {
+			isa = PBXGroup;
+			children = (
+				0563DE831EF07CD500157957 /* KizilGameScene.sks */,
+				0563DE841EF07CD500157957 /* KizilViewController.swift */,
+				0563DE7F1EF07CCA00157957 /* PuzzleInteraction.storyboard */,
+				0563DE7B1EF07C3B00157957 /* KizilGameScene.swift */,
+			);
+			name = Kizil;
+			sourceTree = "<group>";
+		};
+		0563DEB51EF45A6C00157957 /* Defeat of Mara */ = {
+			isa = PBXGroup;
+			children = (
+				FEB8BD5A1F227C0B009D5169 /* GlowingGold.sks */,
+				0588CA941F0C90CD006AC5A8 /* LeafParticle.sks */,
+				FEC3B3491ED7536200B90F1F /* MaraInteraction.storyboard */,
+				0563DEAD1EF45A1A00157957 /* MaraGameScene.swift */,
+				FE01D2361EFB09B6004B3B03 /* newMaraGameScene.sks */,
+				0563DEA71EF4592C00157957 /* MaraGameViewController.swift */,
+			);
+			name = "Defeat of Mara";
+			sourceTree = "<group>";
+		};
+		0588CA791F0580FB006AC5A8 /* StupaInteraction */ = {
+			isa = PBXGroup;
+			children = (
+				0588CA7C1F058112006AC5A8 /* StupaInteraction.storyboard */,
+				0588CA7A1F058112006AC5A8 /* CircleSlider.swift */,
+				0588CA7B1F058112006AC5A8 /* Math.swift */,
+				0588CA7D1F058112006AC5A8 /* StupaViewController.swift */,
+				0588CA7E1F058112006AC5A8 /* TrackLayer.swift */,
+			);
+			name = StupaInteraction;
+			sourceTree = "<group>";
+		};
+		0588CAB91F226BA1006AC5A8 /* DropDownMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0588CABA1F226C16006AC5A8 /* LearnMore.storyboard */,
+				0588CABC1F226CFB006AC5A8 /* LearnMoreViewController.swift */,
+				0588CABE1F226FC2006AC5A8 /* AboutUs.storyboard */,
+				05FC67341F3E2B43000C1B2C /* AboutUsViewController.swift */,
+				0588CAC01F22736E006AC5A8 /* Collection.storyboard */,
+				0588CAC21F227398006AC5A8 /* CollectionViewController.swift */,
+				0588CAB11F1E7A38006AC5A8 /* BTNavigationDropdownMenu.swift */,
+			);
+			name = DropDownMenu;
+			sourceTree = "<group>";
+		};
+		05F4914A1F2A7594007FA10B /* Sculpting Interaction */ = {
+			isa = PBXGroup;
+			children = (
+				9A78FB9C1ECE2EB00048E73F /* SculptingInteraction.storyboard */,
+				9A78FB9E1ECE2EDD0048E73F /* SculptingInteractionViewController.swift */,
+			);
+			name = "Sculpting Interaction";
+			sourceTree = "<group>";
+		};
+		05F4914B1F2A75DC007FA10B /* Map Screen */ = {
+			isa = PBXGroup;
+			children = (
+				0563DE251EE729DA00157957 /* MapScreen.storyboard */,
+				0563DE271EE72A3C00157957 /* ScrollViewController.swift */,
+			);
+			name = "Map Screen";
+			sourceTree = "<group>";
+		};
+		05F4914C1F2A7604007FA10B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9A57C59C1E494B78007345AC /* Hyecho+UITableView.swift */,
+				9AAE4F551E5F368B00558F5C /* Hyecho+UIViewController.swift */,
+				9ACC4E311E4D6B9500F8DC35 /* Hyecho+TimeInterval.swift */,
+				9A3994B71ECF8BAB00FE827F /* Hyecho+UIImage.swift */,
+				9A3E38ED1F1673A600377E4C /* Hyecho+CGPoint.swift */,
+				9AEA1C101EC0E06400430341 /* Hyecho+UIColor.swift */,
+				9AE80D8C1F18E571001C87A8 /* Hyecho+UIButton.swift */,
+				9AD6D8571F17B39700C61E3D /* Hyecho+DispatchTime.swift */,
+				05F4914D1F2A7665007FA10B /* Hyecho+MutableCollection.swift */,
+				05FC67381F89804A000C1B2C /* Hyecho+UIDevice.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		05F4914F1F2A7827007FA10B /* plist */ = {
+			isa = PBXGroup;
+			children = (
+				0588CA981F1546F2006AC5A8 /* InteractionText.plist */,
+				05BDAAB11E60C69900133613 /* hyechoData.plist */,
+				9AEF7DF21E39845F006EA63E /* Info.plist */,
+			);
+			name = plist;
+			sourceTree = "<group>";
+		};
+		05F491881F2BE806007FA10B /* Object Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				05F491891F2BE81D007FA10B /* Bharhut_Fence_King_Visits_The_Buddha.png */,
+				05F4918A1F2BE81D007FA10B /* Defeat_of_Mara.png */,
+				05F4918B1F2BE81D007FA10B /* Ewer_Decorated_With_Female_Figures.png */,
+				05F4918C1F2BE81D007FA10B /* Figure_Of_A_Buddhist_Monk_Standing_On_A_Lotus.png */,
+				05F4918D1F2BE81D007FA10B /* Fragment_From_The_Kizil_Caves.png */,
+				05F4918E1F2BE81D007FA10B /* Head_Of_The_Buddha.png */,
+				05F4918F1F2BE81D007FA10B /* Medicine_Buddha.png */,
+				05F491901F2BE81D007FA10B /* The_Buddhas_Prabhutaratna_And_Sakyamuni_Seated_Sided_By_Side.png */,
+			);
+			name = "Object Pictures";
+			sourceTree = "<group>";
+		};
+		4F975A121F27CF3B00609E19 /* Ewer */ = {
+			isa = PBXGroup;
+			children = (
+				4FDFAEDF1F3B928300AA4F3B /* cupimageanimate.atlas */,
+				4F975A1D1F27D18400609E19 /* EwerGameScene.sks */,
+				4F975A141F27CF7500609E19 /* EwerGameScene.swift */,
+				4F975A151F27CF7500609E19 /* EwerInteraction.storyboard */,
+				4F975A161F27CF7500609E19 /* EwerInteractionViewController.swift */,
+				FEE6A8651F2A5748008B467A /* Pouring.sks */,
+			);
+			name = Ewer;
+			sourceTree = "<group>";
+		};
+		9A878B481E71050D003FF466 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AAE4F571E5F36BD00558F5C /* PopupView.swift */,
+				9A878B461E71001F003FF466 /* AppInfoPopupView.swift */,
+				9AB3E82D1EBCEE52007C8ED5 /* ChapterIntroView.swift */,
+				9A9E5A641F7DA6370099FC8A /* EndOfChapterView.swift */,
+				9AAE4F591E5F36E700558F5C /* HeadphonesPopupView.swift */,
+				9A878B421E70F696003FF466 /* DetailImagePopupView.swift */,
+				9A9CF9D51E8029220072982D /* Hyecho+UIView.swift */,
+				9A78FBA01ECE2F6A0048E73F /* DrawView.swift */,
+				9A9103031ED8B06100A4CBB8 /* ColorPicker.swift */,
+				9A3E38EB1F16734C00377E4C /* SculptingCompletionView.swift */,
+				05FC67361F44CAEE000C1B2C /* PoemView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9A88300A1E82D19900067B35 /* CollectionViewLayouts */ = {
+			isa = PBXGroup;
+			children = (
+				9A8830081E82D18C00067B35 /* MultiHeightLayout.swift */,
+			);
+			name = CollectionViewLayouts;
+			sourceTree = "<group>";
+		};
+		9AC019DB1EDF2EF000B4B439 /* SCNNodes */ = {
+			isa = PBXGroup;
+			children = (
+				9A4933521EE08275001EFBBB /* TerrainMesh.swift */,
+				9A53D2A01EE1F59B00FBEF46 /* SculptingTouch.scnp */,
+			);
+			name = SCNNodes;
+			sourceTree = "<group>";
+		};
+		9AEF7DD71E39845E006EA63E = {
+			isa = PBXGroup;
+			children = (
+				9AEF7DE21E39845F006EA63E /* Hyechos Journey */,
+				9AEF7DFA1E39845F006EA63E /* Hyechos JourneyTests */,
+				9AEF7E051E39845F006EA63E /* Hyechos JourneyUITests */,
+				9AEF7DE11E39845F006EA63E /* Products */,
+				E910D7D0D15BDD181D09C313 /* Frameworks */,
+				9AF117481F86F20D00DB29B1 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		9AEF7DE11E39845F006EA63E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9AEF7DE01E39845F006EA63E /* Hyechos Journey.app */,
+				9AEF7DF71E39845F006EA63E /* Hyechos JourneyTests.xctest */,
+				9AEF7E021E39845F006EA63E /* Hyechos JourneyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9AEF7DE21E39845F006EA63E /* Hyechos Journey */ = {
+			isa = PBXGroup;
+			children = (
+				05F491881F2BE806007FA10B /* Object Pictures */,
+				05A0A8BC1EBBA14D00499E7C /* DataController.swift */,
+				057C7B0B1ED4B67800E7E208 /* toolBarInfo.swift */,
+				05F4914F1F2A7827007FA10B /* plist */,
+				05F4914C1F2A7604007FA10B /* Extensions */,
+				05F4914B1F2A75DC007FA10B /* Map Screen */,
+				05F4914A1F2A7594007FA10B /* Sculpting Interaction */,
+				4F975A121F27CF3B00609E19 /* Ewer */,
+				FEE05D3C1F27CC8900A486CA /* EndScreen */,
+				FEE05D371F27CB8C00A486CA /* DropUpMenu */,
+				0588CAB91F226BA1006AC5A8 /* DropDownMenu */,
+				0588CA791F0580FB006AC5A8 /* StupaInteraction */,
+				0563DEB51EF45A6C00157957 /* Defeat of Mara */,
+				FEA791751F0199EA00CD5935 /* Conversation */,
+				FE01D23C1EFEB828004B3B03 /* HyechoStatue */,
+				0563DE7A1EF07C2C00157957 /* Kizil */,
+				FE92C8C21EE9C45F00AA0C70 /* MedicineBuddha */,
+				FEA1C58E1E706512007B312E /* TableViewCells */,
+				FE1B153A1E4D2FC5001E21C5 /* ViewControllers */,
+				9A878B481E71050D003FF466 /* Views */,
+				9A88300A1E82D19900067B35 /* CollectionViewLayouts */,
+				9AC019DB1EDF2EF000B4B439 /* SCNNodes */,
+				FEA1C5691E5FC04A007B312E /* StoryBoards */,
+				9AEF7DE31E39845F006EA63E /* AppDelegate.swift */,
+				9A99A3661E8B3E39006EBC6E /* Preferences.swift */,
+				9AEF7DED1E39845F006EA63E /* Assets.xcassets */,
+				9AEF7DEA1E39845F006EA63E /* Hyechos_Journey.xcdatamodeld */,
+			);
+			path = "Hyechos Journey";
+			sourceTree = "<group>";
+		};
+		9AEF7DFA1E39845F006EA63E /* Hyechos JourneyTests */ = {
+			isa = PBXGroup;
+			children = (
+				9AEF7DFB1E39845F006EA63E /* Hyechos_JourneyTests.swift */,
+				9AEF7DFD1E39845F006EA63E /* Info.plist */,
+			);
+			path = "Hyechos JourneyTests";
+			sourceTree = "<group>";
+		};
+		9AEF7E051E39845F006EA63E /* Hyechos JourneyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9AEF7E061E39845F006EA63E /* Hyechos_JourneyUITests.swift */,
+				9AEF7E081E39845F006EA63E /* Info.plist */,
+			);
+			path = "Hyechos JourneyUITests";
+			sourceTree = "<group>";
+		};
+		9AF117481F86F20D00DB29B1 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				FEF01EA81EDF521600E4FD6B /* SKMultiLineLabel.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		E910D7D0D15BDD181D09C313 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A8AF94D1EDDF82400F9E707 /* Metal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE01D23C1EFEB828004B3B03 /* HyechoStatue */ = {
+			isa = PBXGroup;
+			children = (
+				0588CA8A1F0C9065006AC5A8 /* HyechoStatueGameScene.sks */,
+				0588CA8B1F0C9065006AC5A8 /* HyechoStatueGameScene.swift */,
+				0588CA861F058637006AC5A8 /* HyechoInteraction.storyboard */,
+				FE01D23D1EFEB880004B3B03 /* HyechoInteractionGameViewController.swift */,
+			);
+			name = HyechoStatue;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FE1B153A1E4D2FC5001E21C5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				05ECC7291E8DFC630062EF6E /* ChapterViewController.swift */,
+				9AB3E82F1EBD062D007C8ED5 /* ItemViewController.swift */,
+				052EC22E1ECE1F9E000A4E0B /* ChapterSelectScreen.swift */,
+				057C7B0D1ED7738700E7E208 /* JourneySelectionScreen.swift */,
+				0588CAB51F1FECE7006AC5A8 /* HomeScreenViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FE92C8C21EE9C45F00AA0C70 /* MedicineBuddha */ = {
+			isa = PBXGroup;
+			children = (
+				0588CA921F0C90AA006AC5A8 /* MedicineBuddhaViewController.swift */,
+				FE1105011F422C3300F38D46 /* Medicine2.sks */,
+				0588CA8F1F0C908B006AC5A8 /* MedicineBuddhaGameScene.swift */,
+				FE9642131EE9D84900B8373F /* MedicineBuddhaInteraction.storyboard */,
+			);
+			name = MedicineBuddha;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FEA1C5691E5FC04A007B312E /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				9AAE4F5B1E5F370600558F5C /* HeadphonesPopup.xib */,
+				9A9E5A621F7DA1DE0099FC8A /* ChapterEndPopup.xib */,
+				9A878B401E70F525003FF466 /* DetailImageView.xib */,
+				9AB3E82B1EBCEDBD007C8ED5 /* ChapterIntro.xib */,
+				9A878B441E70FD75003FF466 /* AppInfo.xib */,
+				9AEF7DE71E39845F006EA63E /* Main.storyboard */,
+				9AEF7DEF1E39845F006EA63E /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		FEA1C58E1E706512007B312E /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				FE1B15351E4D2EC8001E21C5 /* PickerTableViewCell.swift */,
+				05ECC72B1E8DFCDA0062EF6E /* JournalCell.swift */,
+				9A66F1681EBBA7350076FE2A /* ExpandingTextCell.swift */,
+				9A66F16A1EBBA9C10076FE2A /* ExpandingTitleCell.swift */,
+				9AEA1C141EC106E300430341 /* ItemImageCell.swift */,
+				9A1930181EC234240048A38A /* ItemInformationCell.swift */,
+				9AC75DA21EC4E35F007EFB15 /* ChapterHeaderCell.swift */,
+				9A19301A1EC256DF0048A38A /* ChapterItemPreviewCell.swift */,
+			);
+			name = TableViewCells;
+			sourceTree = "<group>";
+		};
+		FEA791751F0199EA00CD5935 /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				0588CA841F058557006AC5A8 /* Conversation.storyboard */,
+				FEA791721F0199DC00CD5935 /* ConversationViewController.swift */,
+			);
+			name = Conversation;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FEE05D371F27CB8C00A486CA /* DropUpMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FEE05D281F27CB7E00A486CA /* DPDConstants.swift */,
+				FEE05D291F27CB7E00A486CA /* DPDKeyboardListener.swift */,
+				FEE05D2A1F27CB7E00A486CA /* DPDUIView+Extension.swift */,
+				FEE05D2B1F27CB7E00A486CA /* DropDown.h */,
+				FEE05D2C1F27CB7E00A486CA /* DropDown.swift */,
+				FEE05D2D1F27CB7E00A486CA /* DropDown+Appearance.swift */,
+				FEE05D2E1F27CB7E00A486CA /* DropDownCell.swift */,
+				FEE05D2F1F27CB7E00A486CA /* DropDownCell.xib */,
+			);
+			name = DropUpMenu;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		FEE05D3C1F27CC8900A486CA /* EndScreen */ = {
+			isa = PBXGroup;
+			children = (
+				FEE05D381F27CC7F00A486CA /* EndScreen.storyboard */,
+				FEE05D391F27CC7F00A486CA /* EndScreenViewController.swift */,
+			);
+			name = EndScreen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9AEF7DDF1E39845E006EA63E /* Hyechos Journey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEF7E0B1E39845F006EA63E /* Build configuration list for PBXNativeTarget "Hyechos Journey" */;
+			buildPhases = (
+				9AEF7DDC1E39845E006EA63E /* Sources */,
+				9AEF7DDD1E39845E006EA63E /* Frameworks */,
+				9AEF7DDE1E39845E006EA63E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hyechos Journey";
+			productName = "Hyechos Journey";
+			productReference = 9AEF7DE01E39845F006EA63E /* Hyechos Journey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9AEF7DF61E39845F006EA63E /* Hyechos JourneyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEF7E0E1E39845F006EA63E /* Build configuration list for PBXNativeTarget "Hyechos JourneyTests" */;
+			buildPhases = (
+				9AEF7DF31E39845F006EA63E /* Sources */,
+				9AEF7DF41E39845F006EA63E /* Frameworks */,
+				9AEF7DF51E39845F006EA63E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AEF7DF91E39845F006EA63E /* PBXTargetDependency */,
+			);
+			name = "Hyechos JourneyTests";
+			productName = "Hyechos JourneyTests";
+			productReference = 9AEF7DF71E39845F006EA63E /* Hyechos JourneyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9AEF7E011E39845F006EA63E /* Hyechos JourneyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9AEF7E111E39845F006EA63E /* Build configuration list for PBXNativeTarget "Hyechos JourneyUITests" */;
+			buildPhases = (
+				9AEF7DFE1E39845F006EA63E /* Sources */,
+				9AEF7DFF1E39845F006EA63E /* Frameworks */,
+				9AEF7E001E39845F006EA63E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AEF7E041E39845F006EA63E /* PBXTargetDependency */,
+			);
+			name = "Hyechos JourneyUITests";
+			productName = "Hyechos JourneyUITests";
+			productReference = 9AEF7E021E39845F006EA63E /* Hyechos JourneyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9AEF7DD81E39845E006EA63E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hyecho;
+				TargetAttributes = {
+					9AEF7DDF1E39845E006EA63E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					9AEF7DF61E39845F006EA63E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AEF7DDF1E39845E006EA63E;
+					};
+					9AEF7E011E39845F006EA63E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9AEF7DDF1E39845E006EA63E;
+					};
+				};
+			};
+			buildConfigurationList = 9AEF7DDB1E39845E006EA63E /* Build configuration list for PBXProject "Hyechos Journey" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9AEF7DD71E39845E006EA63E;
+			productRefGroup = 9AEF7DE11E39845F006EA63E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9AEF7DDF1E39845E006EA63E /* Hyechos Journey */,
+				9AEF7DF61E39845F006EA63E /* Hyechos JourneyTests */,
+				9AEF7E011E39845F006EA63E /* Hyechos JourneyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9AEF7DDE1E39845E006EA63E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEE05D3A1F27CC7F00A486CA /* EndScreen.storyboard in Resources */,
+				FEE05D361F27CB7E00A486CA /* DropDownCell.xib in Resources */,
+				0588CA871F058637006AC5A8 /* HyechoInteraction.storyboard in Resources */,
+				FEB8BD5C1F227C0B009D5169 /* GlowingGold.sks in Resources */,
+				4F975A1E1F27D18400609E19 /* EwerGameScene.sks in Resources */,
+				05F491961F2BE81D007FA10B /* Head_Of_The_Buddha.png in Resources */,
+				05F491931F2BE81D007FA10B /* Ewer_Decorated_With_Female_Figures.png in Resources */,
+				9AEF7DF11E39845F006EA63E /* LaunchScreen.storyboard in Resources */,
+				4F975A1A1F27CF7500609E19 /* EwerInteraction.storyboard in Resources */,
+				05F491941F2BE81D007FA10B /* Figure_Of_A_Buddhist_Monk_Standing_On_A_Lotus.png in Resources */,
+				FE1105021F422C3300F38D46 /* Medicine2.sks in Resources */,
+				0563DE821EF07CCA00157957 /* PuzzleInteraction.storyboard in Resources */,
+				FEE6A8661F2A5748008B467A /* Pouring.sks in Resources */,
+				0588CA811F058112006AC5A8 /* StupaInteraction.storyboard in Resources */,
+				FE01D2371EFB09B6004B3B03 /* newMaraGameScene.sks in Resources */,
+				4FDFAEE01F3B928300AA4F3B /* cupimageanimate.atlas in Resources */,
+				FEC3B34A1ED7536200B90F1F /* MaraInteraction.storyboard in Resources */,
+				0588CABF1F226FC2006AC5A8 /* AboutUs.storyboard in Resources */,
+				0588CA8C1F0C9065006AC5A8 /* HyechoStatueGameScene.sks in Resources */,
+				9AEF7DEE1E39845F006EA63E /* Assets.xcassets in Resources */,
+				0588CAC11F22736E006AC5A8 /* Collection.storyboard in Resources */,
+				0588CA991F1546F2006AC5A8 /* InteractionText.plist in Resources */,
+				9A53D2A21EE1F59B00FBEF46 /* SculptingTouch.scnp in Resources */,
+				05BDAAB21E60C69900133613 /* hyechoData.plist in Resources */,
+				FE9642141EE9D84900B8373F /* MedicineBuddhaInteraction.storyboard in Resources */,
+				05F491951F2BE81D007FA10B /* Fragment_From_The_Kizil_Caves.png in Resources */,
+				0563DE261EE729DA00157957 /* MapScreen.storyboard in Resources */,
+				9A9E5A631F7DA1DE0099FC8A /* ChapterEndPopup.xib in Resources */,
+				9AB3E82C1EBCEDBD007C8ED5 /* ChapterIntro.xib in Resources */,
+				9AEF7DE91E39845F006EA63E /* Main.storyboard in Resources */,
+				9A878B411E70F525003FF466 /* DetailImageView.xib in Resources */,
+				0588CA951F0C90CD006AC5A8 /* LeafParticle.sks in Resources */,
+				05F491921F2BE81D007FA10B /* Defeat_of_Mara.png in Resources */,
+				05F491981F2BE81D007FA10B /* The_Buddhas_Prabhutaratna_And_Sakyamuni_Seated_Sided_By_Side.png in Resources */,
+				05F491911F2BE81D007FA10B /* Bharhut_Fence_King_Visits_The_Buddha.png in Resources */,
+				0588CA851F058557006AC5A8 /* Conversation.storyboard in Resources */,
+				9A78FB9D1ECE2EB00048E73F /* SculptingInteraction.storyboard in Resources */,
+				05F491971F2BE81D007FA10B /* Medicine_Buddha.png in Resources */,
+				9AAE4F5C1E5F370600558F5C /* HeadphonesPopup.xib in Resources */,
+				0563DE851EF07CD500157957 /* KizilGameScene.sks in Resources */,
+				0588CABB1F226C16006AC5A8 /* LearnMore.storyboard in Resources */,
+				9A878B451E70FD75003FF466 /* AppInfo.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEF7DF51E39845F006EA63E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEF7E001E39845F006EA63E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9AEF7DDC1E39845E006EA63E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0563DE7C1EF07C3B00157957 /* KizilGameScene.swift in Sources */,
+				0588CA7F1F058112006AC5A8 /* CircleSlider.swift in Sources */,
+				0588CABD1F226CFB006AC5A8 /* LearnMoreViewController.swift in Sources */,
+				9A878B431E70F696003FF466 /* DetailImagePopupView.swift in Sources */,
+				FEE05D3B1F27CC7F00A486CA /* EndScreenViewController.swift in Sources */,
+				9A78FB9F1ECE2EDD0048E73F /* SculptingInteractionViewController.swift in Sources */,
+				9A878B471E71001F003FF466 /* AppInfoPopupView.swift in Sources */,
+				0588CA911F0C908B006AC5A8 /* MedicineBuddhaGameScene.swift in Sources */,
+				9A3E38EC1F16734C00377E4C /* SculptingCompletionView.swift in Sources */,
+				05ECC72A1E8DFC630062EF6E /* ChapterViewController.swift in Sources */,
+				05FC67391F89804A000C1B2C /* Hyecho+UIDevice.swift in Sources */,
+				05FC67371F44CAEE000C1B2C /* PoemView.swift in Sources */,
+				FEE05D311F27CB7E00A486CA /* DPDKeyboardListener.swift in Sources */,
+				05FC67351F3E2B43000C1B2C /* AboutUsViewController.swift in Sources */,
+				0588CAB21F1E7A38006AC5A8 /* BTNavigationDropdownMenu.swift in Sources */,
+				9AAE4F581E5F36BD00558F5C /* PopupView.swift in Sources */,
+				0563DE281EE72A3C00157957 /* ScrollViewController.swift in Sources */,
+				FEF01EA91EDF521600E4FD6B /* SKMultiLineLabel.swift in Sources */,
+				057C7B0C1ED4B67800E7E208 /* toolBarInfo.swift in Sources */,
+				9A4933531EE08275001EFBBB /* TerrainMesh.swift in Sources */,
+				FEE05D331F27CB7E00A486CA /* DropDown.swift in Sources */,
+				057C7B0E1ED7738700E7E208 /* JourneySelectionScreen.swift in Sources */,
+				05A0A8BD1EBBA14D00499E7C /* DataController.swift in Sources */,
+				05ECC72C1E8DFCDA0062EF6E /* JournalCell.swift in Sources */,
+				9AB3E82E1EBCEE52007C8ED5 /* ChapterIntroView.swift in Sources */,
+				0588CA8D1F0C9065006AC5A8 /* HyechoStatueGameScene.swift in Sources */,
+				9AAE4F561E5F368B00558F5C /* Hyecho+UIViewController.swift in Sources */,
+				9A9E5A651F7DA6370099FC8A /* EndOfChapterView.swift in Sources */,
+				0588CAC31F227398006AC5A8 /* CollectionViewController.swift in Sources */,
+				9A1930191EC234240048A38A /* ItemInformationCell.swift in Sources */,
+				4F975A191F27CF7500609E19 /* EwerGameScene.swift in Sources */,
+				4FF2DBE51FC4783E00D66B16 /* MaraGameScene.swift in Sources */,
+				9ACC4E321E4D6B9500F8DC35 /* Hyecho+TimeInterval.swift in Sources */,
+				0588CA831F058112006AC5A8 /* TrackLayer.swift in Sources */,
+				FE01D23E1EFEB880004B3B03 /* HyechoInteractionGameViewController.swift in Sources */,
+				9AC75DA31EC4E35F007EFB15 /* ChapterHeaderCell.swift in Sources */,
+				FE1B15371E4D2EC8001E21C5 /* PickerTableViewCell.swift in Sources */,
+				9AE80D8D1F18E571001C87A8 /* Hyecho+UIButton.swift in Sources */,
+				9A78FBA11ECE2F6A0048E73F /* DrawView.swift in Sources */,
+				9A3994B81ECF8BAB00FE827F /* Hyecho+UIImage.swift in Sources */,
+				05F4914E1F2A7665007FA10B /* Hyecho+MutableCollection.swift in Sources */,
+				9A9CF9D61E8029220072982D /* Hyecho+UIView.swift in Sources */,
+				9A19301B1EC256DF0048A38A /* ChapterItemPreviewCell.swift in Sources */,
+				9A9103041ED8B06100A4CBB8 /* ColorPicker.swift in Sources */,
+				9AEF7DE41E39845F006EA63E /* AppDelegate.swift in Sources */,
+				9A66F1691EBBA7350076FE2A /* ExpandingTextCell.swift in Sources */,
+				9AEA1C151EC106E300430341 /* ItemImageCell.swift in Sources */,
+				0588CAB61F1FECE7006AC5A8 /* HomeScreenViewController.swift in Sources */,
+				4F975A1B1F27CF7500609E19 /* EwerInteractionViewController.swift in Sources */,
+				9A99A3671E8B3E39006EBC6E /* Preferences.swift in Sources */,
+				FEE05D321F27CB7E00A486CA /* DPDUIView+Extension.swift in Sources */,
+				9A66F16B1EBBA9C10076FE2A /* ExpandingTitleCell.swift in Sources */,
+				9A8830091E82D18C00067B35 /* MultiHeightLayout.swift in Sources */,
+				9A57C59D1E494B78007345AC /* Hyecho+UITableView.swift in Sources */,
+				FEE05D341F27CB7E00A486CA /* DropDown+Appearance.swift in Sources */,
+				0588CA931F0C90AA006AC5A8 /* MedicineBuddhaViewController.swift in Sources */,
+				0588CA821F058112006AC5A8 /* StupaViewController.swift in Sources */,
+				0588CA801F058112006AC5A8 /* Math.swift in Sources */,
+				0563DE861EF07CD500157957 /* KizilViewController.swift in Sources */,
+				9AAE4F5A1E5F36E700558F5C /* HeadphonesPopupView.swift in Sources */,
+				9AEA1C111EC0E06400430341 /* Hyecho+UIColor.swift in Sources */,
+				FEE05D351F27CB7E00A486CA /* DropDownCell.swift in Sources */,
+				0563DEA81EF4592C00157957 /* MaraGameViewController.swift in Sources */,
+				FEE05D301F27CB7E00A486CA /* DPDConstants.swift in Sources */,
+				052EC22F1ECE1F9E000A4E0B /* ChapterSelectScreen.swift in Sources */,
+				FEA791741F0199DC00CD5935 /* ConversationViewController.swift in Sources */,
+				9AEF7DEC1E39845F006EA63E /* Hyechos_Journey.xcdatamodeld in Sources */,
+				9A3E38EE1F1673A600377E4C /* Hyecho+CGPoint.swift in Sources */,
+				9AD6D8581F17B39700C61E3D /* Hyecho+DispatchTime.swift in Sources */,
+				9AB3E8301EBD062D007C8ED5 /* ItemViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEF7DF31E39845F006EA63E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEF7DFC1E39845F006EA63E /* Hyechos_JourneyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AEF7DFE1E39845F006EA63E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AEF7E071E39845F006EA63E /* Hyechos_JourneyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9AEF7DF91E39845F006EA63E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AEF7DDF1E39845E006EA63E /* Hyechos Journey */;
+			targetProxy = 9AEF7DF81E39845F006EA63E /* PBXContainerItemProxy */;
+		};
+		9AEF7E041E39845F006EA63E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9AEF7DDF1E39845E006EA63E /* Hyechos Journey */;
+			targetProxy = 9AEF7E031E39845F006EA63E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9AEF7DE71E39845F006EA63E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AEF7DE81E39845F006EA63E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9AEF7DEF1E39845F006EA63E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9AEF7DF01E39845F006EA63E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9AEF7E091E39845F006EA63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AEF7E0A1E39845F006EA63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9AEF7E0C1E39845F006EA63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = U83Y7EEMUB;
+				INFOPLIST_FILE = "Hyechos Journey/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyechosjourney.hyecho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9AEF7E0D1E39845F006EA63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = U83Y7EEMUB;
+				INFOPLIST_FILE = "Hyechos Journey/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hyechosjourney.hyecho;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9AEF7E0F1E39845F006EA63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hyechos JourneyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyecho.Hyechos-JourneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hyechos Journey.app/Hyechos Journey";
+			};
+			name = Debug;
+		};
+		9AEF7E101E39845F006EA63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Hyechos JourneyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyecho.Hyechos-JourneyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hyechos Journey.app/Hyechos Journey";
+			};
+			name = Release;
+		};
+		9AEF7E121E39845F006EA63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Hyechos JourneyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyecho.Hyechos-JourneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Hyechos Journey";
+			};
+			name = Debug;
+		};
+		9AEF7E131E39845F006EA63E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Hyechos JourneyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.hyecho.Hyechos-JourneyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Hyechos Journey";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9AEF7DDB1E39845E006EA63E /* Build configuration list for PBXProject "Hyechos Journey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEF7E091E39845F006EA63E /* Debug */,
+				9AEF7E0A1E39845F006EA63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AEF7E0B1E39845F006EA63E /* Build configuration list for PBXNativeTarget "Hyechos Journey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEF7E0C1E39845F006EA63E /* Debug */,
+				9AEF7E0D1E39845F006EA63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AEF7E0E1E39845F006EA63E /* Build configuration list for PBXNativeTarget "Hyechos JourneyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEF7E0F1E39845F006EA63E /* Debug */,
+				9AEF7E101E39845F006EA63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9AEF7E111E39845F006EA63E /* Build configuration list for PBXNativeTarget "Hyechos JourneyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AEF7E121E39845F006EA63E /* Debug */,
+				9AEF7E131E39845F006EA63E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9AEF7DEA1E39845F006EA63E /* Hyechos_Journey.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9AEF7DEB1E39845F006EA63E /* Hyechos_Journey.xcdatamodel */,
+			);
+			currentVersion = 9AEF7DEB1E39845F006EA63E /* Hyechos_Journey.xcdatamodel */;
+			path = Hyechos_Journey.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9AEF7DD81E39845E006EA63E /* Project object */;
+}

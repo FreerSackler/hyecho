@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tzH-yU-np2">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sculpting Interaction View Controller-->
+        <scene sceneID="Pfn-la-D2u">
+            <objects>
+                <viewController storyboardIdentifier="Sculpt" id="tzH-yU-np2" customClass="SculptingInteractionViewController" customModule="Hyechos_Journey" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gcs-75-hd8"/>
+                        <viewControllerLayoutGuide type="bottom" id="6dY-PY-E8W"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Old-NZ-KDP">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DTE-N7-CFL">
+                                <rect key="frame" x="0.0" y="66.5" width="375" height="600.5"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z7K-Fd-i4a">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="600.5"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Head_Of_The_Buddha_thumbnail" translatesAutoresizingMaskIntoConstraints="NO" id="uo3-En-OEu">
+                                                <rect key="frame" x="47" y="75" width="281" height="450.5"/>
+                                            </imageView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KXD-Mr-G6H" customClass="DrawView" customModule="Hyechos_Journey" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="600.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.94901960784313721" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstItem="uo3-En-OEu" firstAttribute="centerX" secondItem="KXD-Mr-G6H" secondAttribute="centerX" id="7CH-5q-hCp"/>
+                                            <constraint firstAttribute="trailing" secondItem="KXD-Mr-G6H" secondAttribute="trailing" id="WKF-W2-HRI"/>
+                                            <constraint firstAttribute="bottom" secondItem="KXD-Mr-G6H" secondAttribute="bottom" id="bkW-Te-kJt"/>
+                                            <constraint firstItem="uo3-En-OEu" firstAttribute="height" secondItem="KXD-Mr-G6H" secondAttribute="height" multiplier="0.75" id="cE8-O2-Zre"/>
+                                            <constraint firstItem="KXD-Mr-G6H" firstAttribute="top" secondItem="z7K-Fd-i4a" secondAttribute="top" id="efX-nL-V5u"/>
+                                            <constraint firstItem="uo3-En-OEu" firstAttribute="centerY" secondItem="KXD-Mr-G6H" secondAttribute="centerY" id="jl7-xA-iEh"/>
+                                            <constraint firstItem="uo3-En-OEu" firstAttribute="width" secondItem="KXD-Mr-G6H" secondAttribute="width" multiplier="0.75" id="pzk-HW-r6p"/>
+                                            <constraint firstItem="KXD-Mr-G6H" firstAttribute="leading" secondItem="z7K-Fd-i4a" secondAttribute="leading" id="q2I-oc-vTo"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="z7K-Fd-i4a" firstAttribute="top" secondItem="DTE-N7-CFL" secondAttribute="top" id="2Gm-GJ-aSv"/>
+                                    <constraint firstItem="z7K-Fd-i4a" firstAttribute="leading" secondItem="DTE-N7-CFL" secondAttribute="leading" id="4a9-KA-Oah"/>
+                                    <constraint firstAttribute="trailing" secondItem="z7K-Fd-i4a" secondAttribute="trailing" id="BdK-Zd-TGR"/>
+                                    <constraint firstAttribute="bottom" secondItem="z7K-Fd-i4a" secondAttribute="bottom" id="UUf-IK-100"/>
+                                    <constraint firstItem="z7K-Fd-i4a" firstAttribute="height" secondItem="DTE-N7-CFL" secondAttribute="height" id="eSN-BC-71o"/>
+                                    <constraint firstItem="z7K-Fd-i4a" firstAttribute="width" secondItem="DTE-N7-CFL" secondAttribute="width" id="sLF-gs-OH8"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.94901960784313721" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="6dY-PY-E8W" firstAttribute="top" secondItem="DTE-N7-CFL" secondAttribute="bottom" id="id0-4l-m1K"/>
+                            <constraint firstItem="DTE-N7-CFL" firstAttribute="width" secondItem="Old-NZ-KDP" secondAttribute="width" id="lFE-z4-qyu"/>
+                            <constraint firstItem="DTE-N7-CFL" firstAttribute="height" secondItem="Old-NZ-KDP" secondAttribute="height" multiplier="0.9" id="tq4-sc-Dkg"/>
+                            <constraint firstItem="DTE-N7-CFL" firstAttribute="centerX" secondItem="Old-NZ-KDP" secondAttribute="centerX" id="uN6-vw-pLP"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImageView" destination="uo3-En-OEu" id="gbQ-Mx-JSw"/>
+                        <outlet property="drawContainer" destination="z7K-Fd-i4a" id="w0U-pa-HRh"/>
+                        <outlet property="drawView" destination="KXD-Mr-G6H" id="pZ2-cb-NxV"/>
+                        <outlet property="scrollView" destination="DTE-N7-CFL" id="k5c-1z-CPv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kC1-PZ-8sn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="240.80000000000001" y="86.806596701649184"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Head_Of_The_Buddha_thumbnail" width="298" height="500"/>
+    </resources>
+</document>

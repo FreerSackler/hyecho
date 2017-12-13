@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AppInfoPopupView" customModule="Hyechos_Journey" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hyecho's Journey" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aFr-nw-zwF">
+                    <rect key="frame" x="79" y="39" width="217" height="33.5"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleTitle1"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2017 University of Michigan" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0U5-44-tXY">
+                    <rect key="frame" x="72" y="631" width="230" height="16"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleFootnote"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="justified" translatesAutoresizingMaskIntoConstraints="NO" id="GWM-rc-Lbt">
+                    <rect key="frame" x="16" y="90" width="343" height="533"/>
+                    <mutableString key="text">“Hyecho’s Journey” explores the travels of a young Korean monk who traveled throughout the Buddhist world in the eighth century. Using the monk Hyecho’s travel journal, the project will follow in Hyecho’s footsteps virtually, mapping his journey’s trajectory through his encounters with Buddhist art and the material cultures of the regions he visited. The project models a new approach to the study of Buddhism, offering a picture of the entire Buddhist world at a single historical moment, seen through the eyes of a single monk. This view of Buddhism as a network of interlocking traditions that cross national and cultural boundaries counters a more traditional historical narrative that traces the development of Buddhism as a movement away from an original center. Team members plan to create an interactive map and app that will be featured at a three-year exhibition at the Freer|Sackler Galleries in Washington opening in October 2017; they also expect the research to result in a monograph, a new undergraduate course, a study abroad opportunity, and a graduate student conference on collaboration.</mutableString>
+                    <color key="textColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gy3-Fy-xd4">
+                    <rect key="frame" x="333" y="20" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="DE8-mT-8zc"/>
+                        <constraint firstAttribute="height" constant="22" id="oO4-Ua-iB2"/>
+                    </constraints>
+                    <state key="normal" image="CancelBlack"/>
+                    <connections>
+                        <action selector="didPressCancel:" destination="iN0-l3-epB" eventType="touchUpInside" id="vi5-zu-HuC"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="0U5-44-tXY" secondAttribute="bottom" constant="20" id="6Pz-Pb-S0n"/>
+                <constraint firstAttribute="trailing" secondItem="GWM-rc-Lbt" secondAttribute="trailing" constant="16" id="8Hz-ap-b3C"/>
+                <constraint firstItem="0U5-44-tXY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="72" id="AYt-CJ-ZMK"/>
+                <constraint firstItem="0U5-44-tXY" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Js5-9k-vaD"/>
+                <constraint firstItem="gy3-Fy-xd4" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="MRI-qo-Q4x"/>
+                <constraint firstAttribute="trailing" secondItem="gy3-Fy-xd4" secondAttribute="trailing" constant="20" id="gmG-4G-dUi"/>
+                <constraint firstItem="aFr-nw-zwF" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="jdw-sw-ZWk"/>
+                <constraint firstItem="aFr-nw-zwF" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="39" id="oeP-Ct-MMV"/>
+                <constraint firstItem="0U5-44-tXY" firstAttribute="top" secondItem="GWM-rc-Lbt" secondAttribute="bottom" constant="8" id="rgb-1T-uFn"/>
+                <constraint firstAttribute="trailing" secondItem="0U5-44-tXY" secondAttribute="trailing" constant="73" id="s7z-Sg-f3W"/>
+                <constraint firstItem="GWM-rc-Lbt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="tTp-sc-bgp"/>
+                <constraint firstItem="GWM-rc-Lbt" firstAttribute="top" secondItem="aFr-nw-zwF" secondAttribute="bottom" constant="17.5" id="u57-fK-pZL"/>
+            </constraints>
+            <connections>
+                <outlet property="textView" destination="GWM-rc-Lbt" id="NrP-wW-Meh"/>
+            </connections>
+            <point key="canvasLocation" x="39" y="63"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="CancelBlack" width="91" height="91"/>
+    </resources>
+</document>
